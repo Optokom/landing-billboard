@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OPTOKOM Outdoor Media – Agencja Reklamowa Premium</title>
+  <meta name="description" content="Luksusowa agencja reklamowa z własnymi nośnikami: billboardy, citylighty, LED. Nowoczesność, elegancja, efektywność." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Inter] bg-neutral-100 text-neutral-800">
+  <!-- Hero -->
+  <section class="min-h-screen bg-[url('https://source.unsplash.com/1600x900/?city,billboard')] bg-cover bg-center flex items-center justify-center">
+    <div class="bg-black/60 p-10 rounded-3xl shadow-2xl max-w-2xl text-center text-white">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Wynajmij Billboard Premium</h1>
+      <p class="text-lg mb-6">Własne nośniki reklamowe – topowe lokalizacje w Polsce</p>
+      <a href="#kontakt" class="bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">Zarezerwuj teraz</a>
+    </div>
+  </section>
+
+  <!-- Dlaczego my -->
+  <section class="py-16 px-6 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Dlaczego warto z nami współpracować?</h2>
+    <div class="grid md:grid-cols-2 gap-10 text-lg text-gray-700">
+      <div>
+        <ul class="list-disc list-inside space-y-2">
+          <li>21 lat doświadczenia w branży outdoor</li>
+          <li>Własna sieć billboardów i LED</li>
+          <li>Kompleksowa obsługa – projekt, druk, montaż</li>
+          <li>Design na światowym poziomie</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="list-disc list-inside space-y-2">
+          <li>Możliwość zarządzania nośnikami online</li>
+          <li>Elastyczne opcje najmu i integracji kampanii</li>
+          <li>Najwyższy standard obsługi klienta</li>
+          <li>Realne efekty i zasięgi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opinie i Case studies -->
+  <section class="bg-neutral-50 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-10">Opinie klientów</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <p class="italic">„Profesjonalizm i najwyższa jakość – wreszcie firma, która zna się na rzeczy.”</p>
+        <p class="mt-4 font-semibold">– Karolina, marketing manager</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <p class="italic">„Billboard w top lokalizacji – efekt kampanii przekroczył nasze oczekiwania.”</p>
+        <p class="mt-4 font-semibold">– Michał, dyrektor kreatywny</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <p class="italic">„Estetyka, elegancja i skuteczność. Zdecydowanie polecam!”</p>
+        <p class="mt-4 font-semibold">– Tomasz, CEO start-upu</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="bg-white py-20 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-6">Skontaktuj się z nami</h2>
+    <form class="max-w-xl mx-auto space-y-6">
+      <input type="text" placeholder="Imię i nazwisko" required class="w-full border rounded-lg p-3" />
+      <input type="email" placeholder="Adres e-mail" required class="w-full border rounded-lg p-3" />
+      <textarea rows="5" placeholder="Wiadomość" required class="w-full border rounded-lg p-3"></textarea>
+      <button type="submit" class="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition">Wyślij wiadomość</button>
+    </form>
+    <p class="text-center text-gray-500 mt-6">Lub napisz bezpośrednio: <a href="mailto:kontakt@optokom.pl" class="underline">kontakt@optokom.pl</a></p>
+  </section>
+
+  <!-- O projekcie -->
+  <footer class="bg-neutral-900 text-white text-center py-10 px-4 text-sm">
+    <p>Strona stworzona przez sztuczną inteligencję – ChatGPT.</p>
+    <p>Projekt na miarę światowej klasy – Optokom Outdoor Media 2025</p>
+  </footer>
+</body>
+</html>
