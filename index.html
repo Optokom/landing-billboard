@@ -1,108 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reklama zewnętrzna – Optokom</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f6f6f6;
-      color: #222;
-    }
-    header {
-      background: #000;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    .hero {
-      text-align: center;
-      padding: 30px;
-    }
-    .hero img {
-      width: 90%;
-      max-width: 800px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-    .info {
-      max-width: 800px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .info h2 {
-      margin-top: 0;
-    }
-    .contact {
-      max-width: 800px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .contact form input,
-    .contact form textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    .contact form button {
-      background: #000;
-      color: #fff;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-    .contact form button:hover {
-      background: #444;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+  <title>Optokom Outdoor Media – Luksusowa Agencja Reklamowa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Optokom Outdoor Media</h1>
-    <p>Reklama, która działa!</p>
-  </header>
+<body class="bg-gradient-to-br from-neutral-100 to-neutral-200 text-neutral-800 font-[Inter] min-h-screen flex items-center justify-center p-4">
+  <main class="bg-white/90 backdrop-blur-xl shadow-2xl rounded-2xl p-10 max-w-3xl w-full text-center">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-gray-900 mb-2">Billboard Premium do Wynajęcia</h1>
+      <p class="text-lg text-gray-600">Ekskluzywna lokalizacja. Maksymalny zasięg. Profesjonalna obsługa.</p>
+    </header>
 
-  <section class="hero">
-    <img src="billboard.jpg" alt="Lokalizacja reklamy">
-  </section>
+    <section class="mb-10">
+      <img src="https://source.unsplash.com/800x400/?billboard,city" alt="Billboard" class="rounded-xl shadow-lg w-full mb-4">
+      <div class="text-xl font-semibold text-red-500">Cena już od 999 zł / miesiąc</div>
+    </section>
 
-  <section class="info">
-    <h2>Lokalizacja: Dąbrowa Górnicza, ul. Piłsudskiego 10</h2>
-    <p>Widoczność z trzech pasów ruchu, w sąsiedztwie centrum handlowego. Idealna lokalizacja na reklamę całoroczną lub sezonową.</p>
-    <p><strong>Cena:</strong> zapytaj o ofertę indywidualną.</p>
-  </section>
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Dlaczego Optokom?</h2>
+      <ul class="text-left list-disc list-inside text-gray-700 space-y-2">
+        <li>21 lat doświadczenia w reklamie outdoor</li>
+        <li>Własne nośniki w topowych lokalizacjach</li>
+        <li>Indywidualne podejście i kompleksowa obsługa</li>
+        <li>Design i wykonanie w jednym miejscu</li>
+      </ul>
+    </section>
 
-  <section class="contact">
-    <h2>Zapytaj o dostępność</h2>
-    <form action="mailto:biuro@optokom.pl" method="POST" enctype="text/plain">
-      <input type="text" name="name" placeholder="Imię i nazwisko" required>
-      <input type="email" name="email" placeholder="Adres e-mail" required>
-      <input type="tel" name="phone" placeholder="Numer telefonu">
-      <textarea name="message" rows="5" placeholder="Wiadomość"></textarea>
-      <button type="submit">Wyślij zapytanie</button>
-    </form>
-  </section>
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4">Zarezerwuj teraz</h2>
+      <a href="mailto:kontakt@optokom.pl" class="inline-block bg-black text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-gray-800 transition">Skontaktuj się z nami</a>
+    </section>
 
-  <footer>
-    &copy; 2025 Optokom Outdoor Media. Wszelkie prawa zastrzeżone.
-  </footer>
+    <footer class="text-sm text-gray-500 mt-10 border-t pt-4">
+      Projekt w całości wykonany przez sztuczną inteligencję – ChatGPT. Rok 2025.<br>
+      Optokom Outdoor Media – Lider reklamy zewnętrznej w Polsce.
+    </footer>
+  </main>
 </body>
 </html>
